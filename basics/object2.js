@@ -29,3 +29,31 @@ console.log(obj3)
 
 obj4 = {...obj1, ...obj2};
 console.log(obj4)
+
+const users = [
+    {
+        id: 1,
+        email:"abc@gmail.com"
+    },
+    {
+        id: 1,
+        email:"abc@gmail.com"
+    },
+    {
+        id: 1,
+        email:"abc@gmail.com"
+    },
+    {
+        id: 1,
+        email:"abc@gmail.com"
+    }
+]
+
+// to acess this users[1].email
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'))
